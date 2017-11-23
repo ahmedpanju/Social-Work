@@ -39,7 +39,7 @@ body {
 .panel {
     width: 80%;
     margin: auto;
-    height: 450vh;
+    
     background-color: lightblue;
     padding-top: 50px;
     position: relative;
@@ -110,55 +110,36 @@ body {
     width: 80%;
 }
 
-.findings h3{
-    position: absolute;
-    background-color: rgb(0, 102, 82);
-    color: white;
-    padding-right: 20px;
-    padding-left: 20px;
-    left: 50%;
-    top: 36%;
-    transform: translate(-50%, 190%);
-    -webkit-transform: translate(-50%, 190%);
+.findings h3 {
+   font-size: 35px;
     font-family: Arial;
-    font-size: 35px;
+    border-bottom: 2px solid black;
 }
 
 .findings p {
     width: 80%;
     margin: auto;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-     transform: translate(-50%, 95%);
-    -webkit-transform: translate(-50%, 95%);
+    position: relative;
     font-family: Arial;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .future h3 {
-    position: absolute;
-    background-color: rgb(0, 102, 82);
-    color: white;
+    position: relative;
     padding-right: 20px;
     padding-left: 20px;
-    left: 50%;
-    top: 55%;
-    transform: translate(-50%, 190%);
-    -webkit-transform: translate(-50%, 190%);
     font-family: Arial;
-    text-align: center;
+    text-align: left;
+    border-bottom: 2px solid black;
     font-size: 35px;
+    margin-bottom: 40px;
 }
 
 .future p {
     width: 80%;
     margin: auto;
-    position: absolute;
-    top: 42%;
-    left: 50%;
-     transform: translate(-50%, 95%);
-    -webkit-transform: translate(-50%, 95%);
+    position: relative;
     font-family: Arial;
     font-size: 20px;
 }
