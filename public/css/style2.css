@@ -114,6 +114,7 @@ body {
    font-size: 35px;
     font-family: Arial;
     border-bottom: 2px solid black;
+    text-align: left;
 }
 
 .findings p {
